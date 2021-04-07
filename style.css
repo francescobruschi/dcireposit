@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    background:white;
+}
+.menu,
+a,
+button{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 300;
+    font-size: 20px;
+    color:#07079b;
+    text-decoration: none;
+}
+ header{
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     padding:30px 10% ;
+ }
+ .menu{
+     list-style: none;
+
+ }
+ .menu,li{
+     display: inline-block;
+     padding: 0 20px;
+ }
+ .menu,li,a{
+     transition: all .3s ease;
+ }
+ .menu,a:hover{
+     color: aquamarine;
+ }
+ button{
+     margin-left: auto;
+     padding: 9px 25px;
+     background:aquamarine;
+     border:#07079b;
+     border-radius: 50px;
+     cursor: pointer;
+     transition: all .3s ease;
+}
+button:hover{
+background-color: aqua;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    border: solid 1.5px #07079b;}
+.bg-image {
+    background-image: url(prog2.jpg);
+    background-size: cover
+
+            }
+.ripasso-bordi {
+    border-radius: 100%;
+
+
+}
+.box2{
+   
+    width: 200px;
+    height: 200px;
+    border: solid 1.5px #07079b;}
+.bx-image{
+    background-image: url(prog7.jpg);
+    background-size: cover;
+}
+.bordi{
+    border-radius: 100%;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+border: solid 1.5px #07079b;
+;
+}
+.bo-image{
+    background-image: url(prog10.jpg);
+    background-size: cover;
+}
+.ripasso{
+    border-radius: 100%;
+}
+div{
+    display: flex;
+    align-items: center;
+    margin:auto;
+    padding:auto;
+}
+.boxes{
+    padding:50px;
+    margin: auto;
+}
+h1{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    color: #07079b;
+    padding: auto;
+    font-weight: 500;
+    font-size: 46px;
+}
+h2{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    color: #07079b;
+    padding: auto;
+    font-weight: 500;
+    font-size: 22px;
+}
+h1:hover{
+    color: aquamarine;
+}
+.box4{
+        padding: 20px;
+        border: solid 1.5px #07079b;
+        width: 200px;
+        height: 200px;
+    
+}
+main{
+    width: 200px;
+   height: 200px;
+}
+ .p{ 
+    border: solid 1.5px #07079b;
+    width: 200px;
+    height: 200px;
+    overflow-y: scroll;
+    word-break: break-all;
+    color: rgb(8, 1, 77);
+    
+    }
+    .box5{
+        padding: 20px;
+        border: solid 1.5px #07079b;
+        width: 200px;
+        height: 200px;
+}
+.jp-box{
+    background-image: url(prog3.jpg);
+    background-size: cover;
+
+}
+.box6{
+    padding: 20px;
+        border: solid 1.5px transparent;
+        width: 200px;
+        height: 200px;
+}
+table td,
+        table th{
+         border: 1.5px solid #07079b;
+            padding: 19px;
+            text-align: center;
+            }
+            td:hover{
+                color:#7fffd4 ;
+            }
+            .boxes2{
+                padding: 50px;
+                margin: auto;
+            }
+            .container{
+                display: flex;
+            flex-basis: 33%;
+            
+            }
+            .boxes2{
+                padding:50px;
+                margin: auto;
+                
+}
+.contenitore{
+    background-color: transparent;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+            .text{
+                height: 450px;
+                width: 900px;
+                background: url(Students.gif);
+background-size: 900px 450px;            
+}
+.video{
+    display: flex;
+    align-items: 50%;
+    justify-content: 50%;
+}
+      .responsive{
+          border: 1.5px solid #07079b;
+         }      
+        .video,
+         .p{
+             color: #07079b;
+         }
+        
+         .video:hover{
+             color: aquamarine;
+         }
+        .foots{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            background-color: #07079b;
+            height: 50vh;
+            width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+        }
+      .foot{
+background-image: url(logowhite.png); 
+       background-size: auto;
+
+      }
+      .foot,
+      .h3{
+color: white;
+
+      }
+      @media only screen and (max-width: 600px) {
+          .body{
+              width: 100%;
+              margin: 0px;
+          }
+
+      }
